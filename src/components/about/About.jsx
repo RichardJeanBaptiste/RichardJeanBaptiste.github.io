@@ -18,8 +18,9 @@ export default function About() {
                     <Info/>
 
                     <p className="about_description">
-                        I'm a software developer currently based in The Big apple. I'm a passionate coder who wants to create technology that helps to elevate and connect people and push technology forward as a whole. 
-                        Some technologies I currently enjoy working with are React/React-Native , Python/Flask, and MongoDB.
+                    Hi, I was born and raised in Brooklyn, NY, where I attended Brooklyn College, earning a BS in Computer Science with a 3.5 GPA. Throughout my college career and beyond, I have actively pursued various projects that have not only deepened my passion for software development but also broadened my knowledge and expertise in the field.
+                    During my time at Brooklyn College, I engaged in numerous hands-on projects that allowed me to apply the theoretical concepts I learned in the classroom to real-world scenarios. These experiences honed my problem-solving skills and instilled in me a strong foundation in software development principles.
+                    
                     </p>
 
                     <a  download="" href={CV} className="button button--flex">

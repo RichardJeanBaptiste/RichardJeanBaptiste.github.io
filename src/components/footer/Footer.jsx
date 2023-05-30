@@ -22,22 +22,6 @@ const Footer = () => {
                 </li>
 
             </ul>
-
-            <div className="footer_social">
-                <a href="#" className="home_social-icon" target="_blank">
-                    <i class="bx bxl-facebook"></i>
-                </a>
-
-                <a href="#" className="home_social-icon" target="_blank">
-                    <i class="bx bxl-instagram"></i>
-                </a>
-
-                <a href="#" className="home_social-icon" target="_blank">
-                    <i class="bx bxl-twitter"></i>
-                </a>
-            </div>
-
-            <span className="footer_copy">abcdefg</span>
         </div>
     </footer>
   )

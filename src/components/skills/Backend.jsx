@@ -36,9 +36,9 @@ const Backend = () => {
                 <div className="skills_group">
                     <SkillsData iconclass='check' name='MongoDB' level='Intermidiate'/>
 
-                    <SkillsData iconclass='check' name='Skill' level='Intermidiate'/>
+                    <SkillsData iconclass='check' name='SQL' level='Intermidiate'/>
 
-                    <SkillsData iconclass='check' name='Skill' level='Intermidiate'/>
+                    <SkillsData iconclass='check' name='Firebase' level='Intermidiate'/>
                 </div>
             </div>
         </div>
