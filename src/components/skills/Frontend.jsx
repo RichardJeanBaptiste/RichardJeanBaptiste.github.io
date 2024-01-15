@@ -12,7 +12,6 @@ const Frontend = () => {
                 <i class={iClass}></i>
                 <div>
                     <h3 className="skills_name">{props.name}</h3>
-                    <span className="skills_level">{props.level}</span>
                 </div>
             </div>
         )
@@ -27,21 +26,21 @@ const Frontend = () => {
         <div className="skills_box">
             <div className="skills_group">
                 
-                <SkillsData iconclass='check' name='Html' level='Basic'/>
+                <SkillsData iconclass='check' name='Html'/>
 
-                <SkillsData iconclass='check' name='CSS' level='Intermediate'/>
+                <SkillsData iconclass='check' name='CSS'/>
 
-                <SkillsData iconclass='check' name='Javascript' level='Intermediate'/>
+                <SkillsData iconclass='check' name='Javascript'/>
                
             </div>
 
             <div className="skills_group">
                 
-                <SkillsData iconclass='check' name='Bootstrap' level='Intermediate'/>
+                <SkillsData iconclass='check' name='Bootstrap'/>
 
-                <SkillsData iconclass='check' name='React' level='Intermediate'/>
+                <SkillsData iconclass='check' name='React'/>
 
-                <SkillsData iconclass='check' name='Git' level='Intermediate'/>
+                <SkillsData iconclass='check' name='Git'/>
                 
             </div>
         </div>

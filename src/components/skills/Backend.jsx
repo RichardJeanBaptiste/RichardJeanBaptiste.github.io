@@ -12,7 +12,6 @@ const Backend = () => {
                 <i class={iClass}></i>
                 <div>
                     <h3 className="skills_name">{props.name}</h3>
-                    <span className="skills_level">{props.level}</span>
                 </div>
             </div>
         )
@@ -26,19 +25,19 @@ const Backend = () => {
 
                 <div className="skills_group">
 
-                    <SkillsData iconclass='check' name='Python' level='Intermidiate'/>
+                    <SkillsData iconclass='check' name='Python' />
 
-                    <SkillsData iconclass='check' name='Flask' level='Intermidiate'/>
+                    <SkillsData iconclass='check' name='Flask' />
 
-                    <SkillsData iconclass='check' name='NodeJS' level='Intermidiate'/>
+                    <SkillsData iconclass='check' name='NodeJS' />
                 </div>
 
                 <div className="skills_group">
-                    <SkillsData iconclass='check' name='MongoDB' level='Intermidiate'/>
+                    <SkillsData iconclass='check' name='MongoDB' />
 
-                    <SkillsData iconclass='check' name='Skill' level='Intermidiate'/>
+                    <SkillsData iconclass='check' name='SQL' />
 
-                    <SkillsData iconclass='check' name='Skill' level='Intermidiate'/>
+                    <SkillsData iconclass='check' name='Scripting' />
                 </div>
             </div>
         </div>

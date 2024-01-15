@@ -25,19 +25,17 @@ const Footer = () => {
 
             <div className="footer_social">
                 <a href="#" className="home_social-icon" target="_blank">
-                    <i class="bx bxl-facebook"></i>
+                    <i class="uil uil-instagram"></i>
                 </a>
 
-                <a href="#" className="home_social-icon" target="_blank">
-                    <i class="bx bxl-instagram"></i>
+                <a href="#portfolio" className="home_social-icon" target="_blank">
+                    <i class="uil uil-briefcase"></i>
                 </a>
 
-                <a href="#" className="home_social-icon" target="_blank">
-                    <i class="bx bxl-twitter"></i>
+                <a href="https://github.com/RichardJeanBaptiste" className="home_social-icon" target="_blank">
+                    <i class="uil uil-github-alt"></i>
                 </a>
             </div>
-
-            <span className="footer_copy">abcdefg</span>
         </div>
     </footer>
   )
